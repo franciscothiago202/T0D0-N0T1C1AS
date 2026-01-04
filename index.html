@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>T0D0 N0T1C1AS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {margin:0; font-family:Arial,sans-serif; background:#0f0f0f; color:#eee;}
+header{background:#000; padding:25px; border-bottom:4px solid #00ff99; text-align:center;}
+header h1{color:#00ff99; letter-spacing:4px; margin:5px 0;}
+header p{margin:5px 0;}
+nav{background:#1a1a1a; text-align:center; padding:12px;}
+nav a{color:#eee; margin:0 10px; text-decoration:none; font-weight:bold;}
+nav a:hover{color:#00ff99;}
+section{padding:20px; margin:20px; background:#1a1a1a; border-radius:10px;}
+h2{color:#00ff99; margin-top:0;}
+.article{display:flex; align-items:flex-start; margin:12px 0;}
+.article img{width:120px; height:80px; object-fit:cover; border-radius:6px; margin-right:12px;}
+.article div{max-width:calc(100% - 130px);}
+a.btn{display:inline-block; margin:10px 0; padding:12px 18px; background:#00ff99; color:#000; font-weight:bold; border-radius:8px; text-decoration:none;}
+a.btn:hover{background:#00cc77;}
+footer{text-align:center; padding:20px; color:#888; font-size:14px;}
+@media (max-width:600px){
+ header img{max-width:120px; width:80%;}
+ .article{flex-direction:column; align-items:center;}
+ .article img{margin-right:0; margin-bottom:8px;}
+ .article div{max-width:100%;}
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="logo.png" alt="T0D0 N0T1C1AS" style="max-width:160px;width:100%;height:auto;display:block;margin:auto;">
+<h1>T0D0 N0T1C1AS</h1>
+<p>🎮 Videojuegos | ⚽ Fútbol | 🌦️ Clima | ₿ Cripto | 💱 Economía</p>
+</header>
+
+<nav>
+<a href="#noticias">Noticias</a>
+<a href="#videojuegos">Videojuegos</a>
+<a href="#futbol">Fútbol</a>
+<a href="#clima">Clima</a>
+<a href="#cripto">Cripto</a>
+<a href="#descargas">Descargas</a>
+<a href="#afiliados">Ofertas</a>
+<a href="#donaciones">Donaciones</a>
+</nav>
+
+<section id="noticias">
+<h2>📰 Noticias Generales</h2>
+<div class="article">
+  <img src="https://picsum.photos/120/80?random=1" alt="Noticia">
+  <div>
+    <p>La economía global muestra signos de recuperación. <a href="https://news.google.com/topstories?hl=es-419&gl=AR" target="_blank">Leer más</a></p>
+  </div>
+</div>
+</section>
+
+<section id="videojuegos">
+<h2>🎮 Noticias de Videojuegos</h2>
+<div class="article">
+  <img src="https://picsum.photos/120/80?random=2" alt="Gamer">
+  <div>
+    <p>Se lanzó un nuevo RPG que promete horas de aventuras. <a href="https://news.google.com/search?q=videojuegos" target="_blank">Leer más</a></p>
+  </div>
+</div>
+</section>
+
+<section id="futbol">
+<h2>⚽ Noticias de Fútbol</h2>
+<div class="article">
+  <img src="https://picsum.photos/120/80?random=3" alt="Fútbol">
+  <div>
+    <p>El último partido de la liga dejó grandes sorpresas. <a href="https://news.google.com/search?q=fútbol" target="_blank">Leer más</a></p>
+  </div>
+</div>
+</section>
+
+<section id="clima">
+<h2>🌦️ Clima Mundial</h2>
+<iframe src="https://www.meteoblue.com/es/tiempo/widget/daily?geoloc=detect&days=5&tempunit=CEL&windunit=KMH&layout=dark" 
+width="100%" height="400" frameborder="0" scrolling="no"></iframe>
+<p style="font-size:13px; color:#aaa;">Fuente: <a href="https://www.meteoblue.com" target="_blank" style="color:#00ff99;">meteoblue.com</a></p>
+</section>
+
+<section id="cripto">
+<h2>₿ Criptomonedas</h2>
+<div class="article">
+  <img src="https://picsum.photos/120/80?random=4" alt="Cripto">
+  <div>
+    <p>Bitcoin (BTC) cerca de $30,000 USD, Ethereum (ETH) sube ligeramente. <a href="https://www.coingecko.com/es" target="_blank">Ver precios</a></p>
+  </div>
+</div>
+</section>
+
+<section id="descargas">
+<h2>📥 Descargas / Enlaces</h2>
+<ul>
+  <li><a href="https://cutt.ly/Atg7N61Y" target="_blank" class="btn">📄 Minecraft</a></li>
+  <li><a href="https://cutt.ly/ttg70Qgb" target="_blank" class="btn">📄 PVZ Fusión</a></li>
+  <li><a href="https://cutt.ly/btg72YqM" target="_blank" class="btn">📄 Spotify Premium</a></li>
+</ul>
+</section>
+
+<section id="afiliados">
+<h2>🔥 Ofertas Gamer Recomendadas</h2>
+<a class="btn" href="https://www.eneba.com/affiliate" target="_blank">🎮 Eneba – Juegos y gift cards</a>
+<a class="btn" href="https://www.g2a.com/affiliates" target="_blank">🕹️ G2A – Claves digitales</a>
+<a class="btn" href="https://www.instant-gaming.com/es/affiliate/" target="_blank">💥 Instant Gaming – Descuentos</a>
+<p style="font-size:13px; color:#aaa;">*Algunos enlaces generan comisión sin costo extra para vos.</p>
+</section>
+
+<section id="donaciones">
+<h2>❤️ Apoyar el proyecto</h2>
+<p>Alias MercadoPago: <b>francisco.tlt</b><br>
+Instagram: <a href="https://instagram.com/franciscothiago202" target="_blank" style="color:#00ff99;">@franciscothiago202</a></p>
+<a href="https://www.mercadopago.com.ar/checkout/v1/redirect?pref_id=123456789" target="_blank" class="btn">💰 Donar</a>
+</section>
+
+<footer>
+© 2026 – T0D0 N0T1C1AS | Noticias y ofertas en un solo lugar
+</footer>
+
+</body>
+</html>
