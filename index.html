@@ -15,7 +15,9 @@ body {
 header {
   background: #000;
   padding: 15px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 header img.logo-principal {
   width: 60%;
@@ -70,6 +72,7 @@ footer {
   border-radius: 8px;
   margin-bottom: 15px;
 }
+
 /* ESCUDO FIJO */
 #escudo-afa {
   position: fixed;
@@ -77,6 +80,8 @@ footer {
   left: 20px;
   width: 50px;
   height: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00ff99;
   z-index: 9999;
 }
 /* ESCUDO OCULTO EN MOVILES */
@@ -90,7 +95,7 @@ footer {
 
 <body>
 
-  <!-- ESCUDO ESTÁTICO EN ESQUINA IZQUIERDA -->
+  <!-- ESCUDO FIJO EN ESQUINA IZQUIERDA -->
   <img id="escudo-afa" src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Argentina_national_football_team_logo.png" 
        alt="Escudo Selección Argentina">
 
@@ -197,4 +202,4 @@ footer {
   </footer>
 
 </body>
-</html>
+  </html>
